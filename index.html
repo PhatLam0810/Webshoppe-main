@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="icon" type="image/png" sizes="32x32" href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/icon_favicon_1_32.0Wecxv.png">
     <title>Shoppe Sades</title>
 </head>
@@ -25,18 +26,18 @@
     <div class="app">
         <header class="header">
             <div class="grid wide">
-                <nav class="nav-bar">
+                <nav class="nav-bar hide-on-mb-tb">
                     <ul class="nav-list">
                         <li class="nav-item nav-item-separate qr-display">
                             Vào của hàng ứng dụng của Sades
                             <!-- */ QR Code  */ -->
                             <div class="qr-code">
-                                <img src="https://phatlam0810.github.io/Webshoppe//Img/Qrcodeshoppe.png" alt="QR Code" class="qr-img disable-click ">
+                                <img src="./Img/Qrcodeshoppe.png" alt="QR Code" class="qr-img disable-click ">
                                 <div class="qr-app">
                                     <a href="" class="qr-dowload-link" target="_blank">
-                                        <img src="https://phatlam0810.github.io/Webshoppe//Img/googleplay.png" alt="Googleplay" class="qr-dowload"></img></a>
+                                        <img src="./Img/googleplay.png" alt="Googleplay" class="qr-dowload"></img></a>
                                     <a href="" class="qr-dowload-link">
-                                        <img src="https://phatlam0810.github.io/Webshoppe//Img/appstore.png" alt="Appstore" class="qr-dowload"></img></a>
+                                        <img src="./Img/appstore.png" alt="Appstore" class="qr-dowload"></img></a>
                                 </div>
                             </div>
                         </li>
@@ -146,7 +147,7 @@
                 </nav>
                 <!-- Khung search icon , logo  -->
                 <div class="nav-footer">
-                        <img src="https://phatlam0810.github.io/Webshoppe/Img/images-removebg-preview.png" alt="Shoppe" class="img-logo">
+                        <img src="./Img/images-removebg-preview.png" alt="Shoppe" class="img-logo hide-on-mb-tb">
                         <div class="nav-footer-search">
                             <input type="text" class="nav-footer-input " placeholder="Tìm trong shop này">
                             <button class="btn-search btn-primary"><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -244,57 +245,28 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="has-cart-list-body">
-                                    <img src="https://down-vn.img.susercontent.com/file/4464af041c7614c3b7408a8ef0a9b31d" alt="" class="has-cart-img">
-                                    <div class="has-cart-item-info">
-                                        <div class="has-cart-item-head">
-                                            <h5 class="has-cart-item-name"> Áo Thun Unisex BAD HABITS EXIT TEE</h5>
-                                            <span class="has-cart-item-price">300.000đ</span>
-                                            <span class="has-cart-item-multiply">x</span>
-                                            <span class="has-cart-item-amount">1</span>
-                                        </div>
-                                        <div class="has-cart-item-body">
-                                            <span class="has-cart-item-description">Phân loại chiếc</span>
-                                            <span class="has-cart-item-remove">Xóa</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="has-cart-list-body">
-                                    <img src="https://i.pinimg.com/474x/a1/fb/9e/a1fb9e7f535e095f2ef970de15a72a9e.jpg" alt="" class="has-cart-img">
-                                    <div class="has-cart-item-info">
-                                        <div class="has-cart-item-head">
-                                            <h5 class="has-cart-item-name"> Áo Thun Unisex BAD HABITS Basic Tee</h5>
-                                            <span class="has-cart-item-price">400.000đ</span>
-                                            <span class="has-cart-item-multiply">x</span>
-                                            <span class="has-cart-item-amount">1</span>
-                                        </div>
-                                        <div class="has-cart-item-body">
-                                            <span class="has-cart-item-description">Phân loại chiếc</span>
-                                            <span class="has-cart-item-remove">Xóa</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="has-cart-list-body">
-                                    <img src="https://product.hstatic.net/1000351433/product/mt-den_bc997609d5c9418ca550149c25245384_master.jpg" alt="" class="has-cart-img">
-                                    <div class="has-cart-item-info">
-                                        <div class="has-cart-item-head">
-                                            <h5 class="has-cart-item-name"> Áo thun BLACK JEAN RABBIT TEE</h5>
-                                            <span class="has-cart-item-price">500.000đ</span>
-                                            <span class="has-cart-item-multiply">x</span>
-                                            <span class="has-cart-item-amount">1</span>
-                                        </div>
-                                        <div class="has-cart-item-body">
-                                            <span class="has-cart-item-description">Phân loại chiếc</span>
-                                            <span class="has-cart-item-remove">Xóa</span>
-                                        </div>
-                                    </div>
-                                </li>
+                               
+                               
                             </ul>                       
                               <button class="btn has-cart-btn btn-primary">Xem giỏ hàng</button>
                         </div>
                     </div>
                  </div>
             </div>
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Liên Quan</a>
+                </li>
+                <li class="header__sort-item header__sort-item--active">
+                    <a href="" class="header__sort-link">Mới Nhát</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Bán Chạy</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Giá</a>
+                </li>
+            </ul>
         </header>
         <div class="container">
             <div class="grid wide"> 
@@ -319,7 +291,7 @@
                         </div>
                     </div>
                     <div class="grid-column-10"> 
-                        <div class="shop-name-list">    
+                        <div class="shop-name-list hide-on-mb-tb">    
                                 <div class="shop-name-list-toolbar"> 
                                     <span class="shop-arrange">Sắp xếp theo</span>
                                     <div>
