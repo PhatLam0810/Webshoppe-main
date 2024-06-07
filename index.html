@@ -25,7 +25,9 @@
 <body>
     <div class="app">
         <header class="header">
+            
             <div class="grid wide">
+                
                 <nav class="nav-bar hide-on-mb-tb">
                     <ul class="nav-list">
                         <li class="nav-item nav-item-separate qr-display">
@@ -147,6 +149,31 @@
                 </nav>
                 <!-- Khung search icon , logo  -->
                 <div class="nav-footer">
+                    <!-- Navigation Mobile -->
+                  
+                    <input type="checkbox" hidden class="mobile-check-overlay" name="" id="mobile-input"> 
+                    <!--Tạo thẻ input gắn id vô rồi tạo thẻ label for id nó sẽ có tính năng checkbox  -->
+                    <label for="mobile-input" id="mobile-menu" class="mobile-menu-btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <label for="mobile-input" class="nav-overlay"></label>
+                    <div class="mobile-category"> 
+                        <div class="mobile-shop-category">Danh mục</div>
+                        <div class="mobile-shop-category-title">
+                            <div class="mobile-shop-category-list">
+                                <i class="fa-solid fa-caret-right"></i>
+                                <span>Sản Phẩm</span>
+                            </div>
+                            <div> 
+                                <li class="mobile-shop-category-item"><a href="" class="mobile-shop-title">T-SHIRT</a></li>
+                                <li class="mobile-shop-category-item"><a href="" class="mobile-shop-title">NEW ARRIVAL</a></li>
+                                <li class="mobile-shop-category-item"><a href="" class="mobile-shop-title">Best Seller</a></li>
+                                <li class="mobile-shop-category-item"><a href="" class="mobile-shop-title">Hoodie - Cardigan</a></li>
+                                <li class="mobile-shop-category-item"><a href="" class="mobile-shop-title">Rebel Collection</a></li>
+                            </div>    
+                        </div>
+                    </div>
+                    <!-- Navigation Moblie -->
                         <img src="./Img/images-removebg-preview.png" alt="Shoppe" class="img-logo hide-on-mb-tb">
                         <div class="nav-footer-search">
                             <input type="text" class="nav-footer-input " placeholder="Tìm trong shop này">

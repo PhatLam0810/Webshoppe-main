@@ -62,7 +62,12 @@
         overflow: scroll;
     }
     .nav-footer-carticon {
-        margin: 25px 7px 25px 30px;
+        margin: 24px 12px ;
+
+    }
+    /* Mobile nav navigation */
+    .mobile-menu-btn{
+        display: inline-flex;
     }
  
 }
