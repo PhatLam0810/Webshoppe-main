@@ -54,7 +54,7 @@
 .mobile-menu-btn{
     align-items: center;
     display: none;
-
+    -webkit-tap-highlight-color: transparent;
 }
 .mobile-menu-btn i{
     font-size: 30px;
