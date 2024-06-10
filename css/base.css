@@ -6,13 +6,13 @@
     --header-sort-bar-height: 46px;
 }
 *{
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 html{
     font-size: 62.5%;
     line-height:  1.5rem;
     font-family: "Roboto", sans-serif;
-    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .grid-row{

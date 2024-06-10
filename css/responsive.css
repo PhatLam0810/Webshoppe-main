@@ -4,7 +4,7 @@
         display: none;
     }
     .header{
-        height: 71px;
+
         position: fixed;
         z-index: 10;
         right: 0;
@@ -13,9 +13,16 @@
     }
     .container{
         margin-top: 108px;
+        padding-top: 20px;
     }
     .header__sort-bar{
         display: flex;
+    }
+    .nav-mobile-category{
+        display: block;
+    }
+    .footer-detail{
+        text-align: center
     }
 }
 
@@ -28,8 +35,10 @@
     .nav-footer-carticon{
         margin-left: 50px;
     }
-    .search-history{
-        width: 475px;
+    .mobile-menu-btn{
+        display: inline-flex;
+        margin-right: 50px;
+        margin-bottom: 5px;
     }
 }
 
@@ -39,15 +48,14 @@
     .hide-on-mb{
         display: none;
     }
+    .container{
+        padding-left: 6px;
+        padding-right: 6px;
+    }
     .nav-footer-search{
         margin-left: 5px;
     }
-    .search-history{   
-        width: 250px;
-        margin-top: 42px;
-        margin-right: 63px;
-        margin-left: 5px;
-    }
+
     /* Header */
     .cart-container {
         position: fixed;
@@ -60,14 +68,44 @@
     }
     .has-cart-list{
         overflow: scroll;
+        overflow-x: hidden;
+    }
+    .has-cart-item-name{
+        flex-grow: 0;
+    }
+    .has-cart-notify{
+        bottom: 31px;
     }
     .nav-footer-carticon {
-        margin: 24px 12px ;
-
+        margin: 10px 8px ;
+        padding: 18px 16px;
     }
     /* Mobile nav navigation */
     .mobile-menu-btn{
         display: inline-flex;
     }
- 
+    /* Category */
+    .grid-column-2{
+        display: none;
+    }
+    /* Footer pagination */
+    .pagination-item {
+        margin: 0 2px;
+    }
+    .pagination-item__link {
+        min-width: 28px;
+    }
+    /* Footer */
+    .footer-detail{
+        margin: 20px;
+    }
+    .footer-heading{
+        text-align: center;
+    }
+    .footer-item__link{
+        justify-content: center;
+    }
+    .footer-dowload__qr{
+        display: none;
+    }
 }
