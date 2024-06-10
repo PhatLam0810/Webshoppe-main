@@ -60,6 +60,7 @@
     font-size: 30px;
     padding: 12px;
     color: var(--white-color);
+    -webkit-tap-highlight-color: transparent;
 }
 .nav-overlay{
     position: fixed;
