@@ -54,13 +54,13 @@
 .mobile-menu-btn{
     align-items: center;
     display: none;
-
+    -webkit-tap-highlight-color: transparent;
 }
 .mobile-menu-btn i{
     font-size: 30px;
     padding: 12px;
     color: var(--white-color);
-    -webkit-tap-highlight-color: transparent;
+  
 }
 .nav-overlay{
     position: fixed;
