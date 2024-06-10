@@ -111,4 +111,7 @@
     .footer-address{
         padding: 0 5px;
     }
+    .cart-container::before{
+        display: none;
+    }
 }

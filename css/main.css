@@ -91,9 +91,6 @@
     line-height: 35px;
 }
 
-.mobile-shop-category-title{
-  
-}
 .mobile-shop-category-list{
     font-size: 1.6rem;
     color: #d0011b;
@@ -118,6 +115,12 @@
 }
 .mobile-check-overlay:checked ~ .mobile-category{
     transform: translateX(0%);
+}
+.mobile-check-cart:checked ~ .cart-container{
+    display: block;
+}
+.mobile-check-cart:checked ~ .has-cart-btn{
+    display: block;
 }
 /* Mobile menuu */
 /* Nav-bar */
@@ -511,9 +514,9 @@
     cursor: pointer;
     padding: 4px 16px;
 }
-.nav-footer-carticon:hover .cart-container{
+/* .nav-footer-carticon:hover .cart-container{
     display: block;
-}
+} */
 
 /* Để chạy phần table nocart */
 .Nocart-container .img-nocart{
@@ -676,7 +679,8 @@
     float: right; /*đẩy item sang right*/
     font-size: 1.6rem;
     margin: 20px 13px 20px 20px;
-    padding: 10px;
+    padding: 14px;
+    text-align: center;
 }
 
 /* Thông tin người dùng */
