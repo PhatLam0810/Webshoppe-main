@@ -9,7 +9,7 @@
 /* Header sort-bar */
 .header__sort-bar{
     position: fixed;
-    top: 90px;
+    top: 82px;
     left: 0;
     right: 0;
     height: 46px;
@@ -57,7 +57,7 @@
     -webkit-tap-highlight-color: transparent;
 }
 .mobile-menu-btn i{
-    font-size: 30px;
+    font-size: 20px;
     padding: 12px;
     color: var(--white-color);
   

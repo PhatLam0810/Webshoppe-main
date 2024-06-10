@@ -24,12 +24,7 @@
     .footer-detail{
         text-align: center
     }
-    .mobile-menu-btn{
-        margin: 0;
-    }
-    .nav-footer-search{
-        margin: 0;
-    }
+ 
     .nav-footer-carticon{
         margin: 0;
     }
@@ -59,10 +54,7 @@
         padding-left: 6px;
         padding-right: 6px;
     }
-    .nav-footer-search{
-        margin-left: 5px;
-    }
-
+ 
     /* Header */
     .cart-container {
         position: fixed;
@@ -82,7 +74,7 @@
     }
     /* Mobile nav navigation */
     .mobile-menu-btn{
-        display: inline-flex;
+        display: block;
     }
     /* Category */
     .grid-column-2{
