@@ -108,4 +108,7 @@
     .footer-dowload__qr{
         display: none;
     }
+    .footer-address{
+        padding: 0 5px;
+    }
 }
